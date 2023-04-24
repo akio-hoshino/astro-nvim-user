@@ -5,8 +5,13 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
-  -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.colorscheme.tokyonight" },
   { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.pack.astro" },
+  { import = "astrocommunity.pack.php" },
+  { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.motion.mini-move" },
   {
     -- further customize the options set by the community
     "catppuccin",
